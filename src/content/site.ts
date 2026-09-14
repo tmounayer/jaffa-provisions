@@ -34,7 +34,7 @@ export const site: SiteContent = {
     ], image: '/images/jaffa-pantry.jpg', imageAlt: 'A simple spread of citrus, bread and olives in afternoon light.' },
   ],
   contact: {},
-  footerNote: 'Good food. Good company. More to come.',
+  footerNote: 'Good food. Good company. More good things to come.',
   emailSignup: { enabled: false, heading: 'A note from our table.', formUrl: '' },
   theme: { primaryColor: '#243b2b', accentColor: '#a94024', font: 'Georgia, serif' },
   seo: { title: 'Jaffa Provisions — Good things take time', description: 'A love of good food, a generous table, and something new in the making. Meet Jaffa Provisions.' },
