@@ -22,8 +22,8 @@ All current copy and imagery are starting placeholders. There is no invented con
 
 After Codex reports “Live,” open https://jaffaprovisions.com and check the change. If publishing times out, ask Codex to check the deployment. A timeout does not necessarily mean deployment failed; Cloudflare might still be building.
 
-## First launch still needs setup
+## Your live website
 
-Connect this GitHub repository to Cloudflare Pages and connect the domain before the first live publish/undo test. The domain stays registered at Squarespace. See DEVELOPER_NOTES.md for the exact settings and the root-domain DNS limitation.
+The site is live at https://jaffaprovisions.com. The www address redirects there automatically. Cloudflare builds updates from GitHub. The domain stays registered at Squarespace; Cloudflare now manages DNS, with DNSSEC protection enabled. No further domain setup is needed for normal site edits.
 
 The hosting stack uses free tiers; existing domain registration renewals remain separate. Do not enable paid add-ons or Cloudflare Web Analytics.

@@ -25,4 +25,4 @@ Use Node 24. If npm is not on this Mac's PATH, prepend `/opt/homebrew/opt/node@2
 
 ## First launch status
 
-Cloudflare project creation, the actual pages.dev URL, domain setup, HTTPS/redirect verification, and the real live publish/rollback round trip still need completion. Do not confuse the disposable local script tests with a production deployment. The initial scaffold and implementation are pushed directly after a successful build to bootstrap the Git integration; subsequent publication requests use `npm run publish`.
+Cloudflare Pages is connected to GitHub main. Production is https://jaffaprovisions.com and the Pages URL is https://jaffa-provisions.pages.dev. Squarespace remains the registrar; Cloudflare hosts DNS on its Free plan. DNSSEC is active. A Cloudflare Single Redirect sends www and HTTP to the HTTPS apex, preserving paths and queries. Use `npm run publish` for subsequent publication requests. See DEVELOPER_NOTES.md for live verification evidence.

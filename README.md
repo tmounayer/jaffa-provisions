@@ -7,4 +7,4 @@ A simple static Astro website, hosted on Cloudflare Pages.
 - Content: `src/content/site.ts`
 - Images: `public/images`
 
-Use `npm run dev` to preview, `npm run publish` to publish, and `npm run rollback` to undo the most recent committed update. Cloudflare and domain setup must be completed before live verification works.
+Live at https://jaffaprovisions.com. Use `npm run dev` to preview, `npm run publish` to publish, and `npm run rollback` to undo the most recent committed update. Domain setup, DNSSEC, HTTPS, redirects and the live publish/rollback workflow have been verified.
