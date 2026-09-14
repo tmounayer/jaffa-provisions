@@ -13,7 +13,7 @@ npm run build
 npm run preview
 ```
 
-Use the URL printed by Astro. Production output goes to `dist`. The lockfile pins the tested dependencies. Astro 7.3.2 was the latest stable version installed from the registry during setup. No GitHub Actions.
+Use the URL printed by Astro. Production output goes to `dist`. `astro.config.mjs` pins `vite.tsconfig` to this project's `tsconfig.json`; without it, Vite 8's rolldown resolver auto-discovers any `tsconfig.json` in a parent directory, so a nested checkout (for example a Git worktree inside another checkout that has no `node_modules`) fails with `Tsconfig not found astro/tsconfigs/strict`. The lockfile pins the tested dependencies. Astro 7.3.2 was the latest stable version installed from the registry during setup. No GitHub Actions.
 
 ## Edit or add a page
 
